@@ -24,7 +24,34 @@
 		&nbsp; &nbsp; &nbsp;
 		<input type="submit" name="enviar">
 
+		<br><br>
+
 		<a href="#" onclick="document.cadastro.reset()">Limpar</a>
+
+		<br><br>
+
+		<button onclick="window.location.href = ´https://www.google.com.br´ ">Google</button>
+
+		<br><br>
+
+		Animais 
+		<select name="animais">
+			<option value="maca">Macaco</option>
+			<option value="elef" selected = "true">Elefante</option>
+			<option value="cach">Cachorro</option>
+			<option value="gato">Gato</option>
+
+		</select>
+
+		<br><br>
+
+		Mensagem:
+		<br><br>
+		<textarea name="msg" cols="50" rows="8"></textarea>
+
+		<br><br>
+		<input type="submit" name="enviar">
+
 	</form>
 
 </body>
